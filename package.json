@@ -1,0 +1,37 @@
+{
+  "name": "@it-enterprise/jwtauthentication",
+  "version": "2.0.2",
+  "description": "JSON Web Token-Based authentication library",
+  "main": "./dist/jwtauthentication.common.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "publish": "npm publish",
+    "build": "vue-cli-service build --target lib --name jwtauthentication ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://tfs2017:8080/tfs/DefaultCollection/NpmPackages/_git/JwtAuthentication"
+  },
+  "keywords": [
+    "athentication",
+    "jwt"
+  ],
+  "author": "it-enterprise",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "fingerprintjs2": "^2.1.0",
+    "jwt-decode": "^2.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^4.1.1",
+    "vue-template-compiler": "^2.6.11",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0"
+  }
+}

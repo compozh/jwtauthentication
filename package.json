@@ -21,7 +21,7 @@
   "author": "it-enterprise",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "fingerprintjs2": "^2.1.0",
     "jwt-decode": "^2.2.0"
   },
